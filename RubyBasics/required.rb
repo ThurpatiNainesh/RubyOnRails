@@ -1,0 +1,3 @@
+require_relative"modules.rb"
+include Tools
+Tools.sayhi("MIKEY")
