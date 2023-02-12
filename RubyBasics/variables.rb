@@ -8,3 +8,7 @@ character_name="tommy"
 puts("and he woke "+ character_name +" up quite angry "+ character_age)
 character_age="98"
 puts("He was about to eat the mouse when the mouse desperately requested the "+ character_age)
+
+puts character_name ,character_age
+
+puts "hello #{character_name}"

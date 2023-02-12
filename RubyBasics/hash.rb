@@ -1,15 +1,23 @@
-states={
+elements={
     "Sodium" => "Na",
     "helium" => "he",
     "hydrogen" =>"h",
     :zinc =>"zn",
       1 => "number"
 }
-puts states
+
+puts elements
+puts elements.size
+
+
+
 # {"Sodium"=>"Na", "helium"=>"he", "hydrogen"=>"h", :zinc=>"zn"}
-puts states["hydrogen"]
+puts elements["hydrogen"]
 # h
-puts states[:zinc]
+puts elements[:zinc]
 # zn
-puts states[1]
+puts elements[1]
 # number
+elements.each do| key , value|
+  p "#{key} : #{value}"
+end

@@ -32,3 +32,52 @@ puts phrase.index("b")
 # 0
 puts"girraffe".upcase()
 # GIRRAFFE
+
+# multiline 
+str3 = "This is a
+multiple line
+string "
+puts str3
+str="hello"
+# print str3
+# myString = %//
+puts str.size
+puts str.length
+puts str.upcase
+puts str.downcase
+puts str.reverse
+puts str.upcase.reverse
+puts str.include?"h"
+# concate
+puts "hello " "my name is khan"
+puts "hello " + "my name is khan"
+puts "hello ".concat("my name is khan")
+# 5
+# 5
+# HELLO
+# hello
+# olleh
+# OLLEH
+# true
+# hello my name is khan
+
+
+
+# appending (change,over write)
+str6="hi"
+puts str6
+# hi
+str6 = str6 << " changed to bye"
+puts str6
+# hi changrd to bye
+str6.freeze
+# you cannt modify froxen string
+# str6 = str6 << "again"
+
+puts "abc"=="abc"
+puts "abc".eql?"123"
+
+msg = "hello world"
+puts msg["hello"]
+# hell
+

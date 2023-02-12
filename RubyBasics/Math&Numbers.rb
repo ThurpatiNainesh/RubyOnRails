@@ -25,5 +25,18 @@ puts 10/7
 # 1
 puts 10/7.0
 # 1.428571428
+Num = 025
+puts Num
+# 21
+puts(2==3)
+puts(2!= 3)
+puts(2>3)
+puts(2<3)
+puts(2<=3)
+puts(2>=3)
 
+a=10
+b=20
+c = (a>b)? a : b
+p c
 

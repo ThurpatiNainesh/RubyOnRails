@@ -14,5 +14,5 @@ elsif op=="*"
 elsif op=="/"
     puts(num1/num2)
 else 
-    puts "invalid op"
+    puts "invalid operation"
 end
