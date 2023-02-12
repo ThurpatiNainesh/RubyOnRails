@@ -12,7 +12,7 @@ def count_vowelsAndConsonant(string)
       end
       counter += 1
     end
-    return consonantsCount,vowelsCount
+    return "vowelsCount : #{vowelsCount}  consonantsCounts : #{consonantsCount}"
 end
-puts count_vowelsAndConsonant("Laa")
+puts count_vowelsAndConsonant("Laaaaaaaaa")
 
