@@ -1,5 +1,4 @@
-puts [1,2].flat_map
-#<Enumerator:0x00005564ae825ce0>
+
 Num = 025
 puts Num
 # 21
