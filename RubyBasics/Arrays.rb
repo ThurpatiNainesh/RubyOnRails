@@ -1,12 +1,17 @@
 friends=Array["kevin","karen","oscar"]
 #              0(-3)   1(-2)   2(-1)
 puts friends
+puts friends.include?"oscar"
 # kevin
 # karen
 # oscar
 puts friends[1]
 # karen
 puts friends[-1]
+# or
+puts friends.last
+puts friends.first
+puts friends.append("Mashrur")
 # oscar
 # ++++++++++++++++++++++
 # rang of names
@@ -86,7 +91,7 @@ p arr1
 p arr1.delete(100)# delete specific item
 p arr1
 p arr1.uniq # remove all duplicate
-p arr1
+p arr1.reverse!
 
 # 3
 # 3
@@ -108,5 +113,39 @@ p arr1
 # [1, 2, 3, 6]
 # [1, 2, 3, 6]
 
+# p [4,5,6,1].find{|x|x<3}
+#find first elelemen which is lessthen 3
+
+a=[1,2,3,[4,5,[6,7]]]
+p a.flatten!
+# [1, 2, 3, 4, 5, 6, 7]
+
+x=[1,2,3,4,5,6]
+y=x
+x.reject!{|e|e.even?}
+p x 
+p y
+# [1, 3, 5]
+# [1, 3, 5]
+x=1..10
+puts x.class
+# Range
+print x.to_a
+# [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+puts x.to_a.shuffle
+# puts x.to_a.shuffle!
+# ! indicate to the array change(mutate)
+# 2
+# 7
+# 8
+# 4
+# 1
+# 6
+# 10
+# 5
+# 9
+# puts x.reverse
+# t="a".."z"
+# puts t.to_a.length
 
 

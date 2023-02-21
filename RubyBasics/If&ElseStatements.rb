@@ -1,3 +1,7 @@
+#  && ||
+#  and or
+# !
+
 ismale=true
 if ismale
     puts "youn are male"
